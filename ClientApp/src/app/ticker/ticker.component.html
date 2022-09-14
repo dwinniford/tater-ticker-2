@@ -1,0 +1,9 @@
+<div class="holder">
+    <button (click)="handleDec($event)">-</button>
+    <div><span>{{count}}</span></div>
+    <button (click)="handleInc($event)">+</button>
+</div>
+<div class="status-holder" [class.fade-in]="fadeIn">
+    <h2 >{{status}}</h2>
+    <button (click)="reset()">Reset</button>
+</div>

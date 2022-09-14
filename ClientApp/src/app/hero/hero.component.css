@@ -1,0 +1,28 @@
+.hero {
+    min-height: 41vh;
+    background-image: url('../../assets/images/steak.jpg');
+    background-position: 50% 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.hero:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  background-color: rgba(0,0,0,.3);
+}
+
+.hero h1 {
+  position: absolute;
+  top: 48%;
+  width: 100%;
+  text-align: center;
+  font-size: 48px;
+  color: var(--lemon-meringue);
+  z-index: 1;
+}

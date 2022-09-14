@@ -1,0 +1,28 @@
+.holder {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgba(0,0,0,.3); */
+}
+.logo {
+    width: 100px;
+    margin-left: 5rem;
+}
+.navbar-holder {
+    display: flex;
+    align-items: center;
+    
+}
+.navbar-holder a {
+    padding: 1rem 2rem;
+    font-size: 18px;
+    color:var(--lemon-meringue);
+    transition: color .5s ease;
+}
+.navbar-holder a:hover {
+    color: var(--light-roast)
+}

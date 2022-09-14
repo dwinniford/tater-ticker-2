@@ -1,0 +1,10 @@
+<app-navbar></app-navbar>
+<app-hero [title]="title"></app-hero>
+<div class="container">
+  <app-ticker
+    #ticker
+    (tickEvent)="handleTick($event)"
+    [count]="tickerCount"
+  ></app-ticker>
+  <app-memory-list [memories]="memories"></app-memory-list>
+</div>

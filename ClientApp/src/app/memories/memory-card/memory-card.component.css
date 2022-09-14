@@ -1,0 +1,13 @@
+.card {
+    display: block;
+}
+.card img {
+    width: 100%;
+}
+.ratings {
+    display: flex;
+}
+.ratings img {
+    width: 24px;
+    padding: 5px;
+}

@@ -1,0 +1,28 @@
+<div class="card">
+    <img src="../../../assets/images/steak.jpg">
+    <h3>{{memory.title}}</h3>
+    <div class="ratings" [ngSwitch]="memory.forks">
+        <!-- <img *ngFor="let fork of forkArray" src="../../../assets/images/fork.png"> -->
+        
+            <div *ngSwitchCase="1">
+                <img src="../../../assets/images/fork.png">
+            </div>
+            <div *ngSwitchCase="2">
+                <img src="../../../assets/images/fork.png"><img src="../../../assets/images/fork.png">
+            </div>
+            <div *ngSwitchCase="3">
+                <img src="../../../assets/images/fork.png"><img src="../../../assets/images/fork.png"><img src="../../../assets/images/fork.png">
+            </div>
+            <div *ngSwitchCase="4">
+                <img src="../../../assets/images/fork.png"><img src="../../../assets/images/fork.png"><img src="../../../assets/images/fork.png"><img src="../../../assets/images/fork.png">
+            </div>
+            <div *ngSwitchCase="5">
+                <img src="../../../assets/images/fork.png"><img src="../../../assets/images/fork.png"><img src="../../../assets/images/fork.png"><img src="../../../assets/images/fork.png"><img src="../../../assets/images/fork.png">
+            </div>
+            <div *ngSwitchDefault>
+                
+            </div>
+        
+        
+    </div>
+</div>

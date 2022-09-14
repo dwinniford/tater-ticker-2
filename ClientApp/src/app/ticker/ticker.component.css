@@ -1,0 +1,35 @@
+.holder {
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+    font-size: 48px;
+}
+
+.holder button {
+    font-size: 48px;
+    width: 65px;
+    height: 65px;
+    margin: 0 2rem;
+}
+
+.status-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    font-size: 36px;
+    padding: .5rem 1rem;
+    margin: 0 2rem;
+}
+h2 {
+    font-size: 32px;
+}
+.status-holder h2 {
+    opacity: 0;
+    transition: opacity .5s ease;
+}
+.status-holder.fade-in h2 {
+    opacity: 1;
+}

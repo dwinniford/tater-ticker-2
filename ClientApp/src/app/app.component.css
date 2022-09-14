@@ -1,0 +1,23 @@
+.status-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    font-size: 36px;
+    background-color: #b69e87;
+    box-shadow: none;
+    padding: .5rem 1rem;
+    margin: 0 2rem;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+h2 {
+    font-size: 32px;
+}
+
+.container {
+    max-width: 992px;
+    margin: 0 auto;
+}
